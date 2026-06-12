@@ -1,0 +1,39 @@
+[0m19:32:29.484968 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 19:32:29.507980 | bd8f6e87-0757-48b4-a67a-0f58d730d093 ==============================
+[0m19:32:29.507980 [info ] [MainThread]: Running with dbt=1.8.0
+[0m19:32:29.509982 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\Davin\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt init nyc_taxi', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:32:29.532185 [debug] [MainThread]: Starter project path: C:\Users\Davin\miniconda3\envs\nyc-practice-env\Lib\site-packages\dbt\include\starter_project
+[0m19:32:29.562892 [info ] [MainThread]: 
+Your new dbt project "nyc_taxi" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:32:29.563903 [info ] [MainThread]: Setting up your profile.
+[0m19:32:34.484079 [debug] [MainThread]: Command `dbt init` succeeded at 19:32:34.484079 after 5.07 seconds
+[0m19:32:34.484079 [debug] [MainThread]: Flushing usage events
+[0m11:16:43.367921 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 11:16:43.393518 | a6a0cb59-4803-4afb-bd31-fc9126752ce9 ==============================
+[0m11:16:43.393518 [info ] [MainThread]: Running with dbt=1.8.0
+[0m11:16:43.394519 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Davin\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt test', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m11:16:43.395527 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Davin\python-projects\Analyst & Data Engineer Portfolio\nyc-taxi-dbt-practice\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m11:16:43.396866 [debug] [MainThread]: Command `dbt test` failed at 11:16:43.395870 after 0.09 seconds
+[0m11:16:43.396866 [debug] [MainThread]: Flushing usage events

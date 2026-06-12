@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "DuckDB",
+            "name": "nyc-taxi-dev",
+            "database": "${workspaceFolder:nyc-taxi-dbt-practice}/nyc_taxi/dev.duckdb"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}

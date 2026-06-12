@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: stg_taxi_trips
+    columns:
+      - name: trip_id
+        data_tests:
+          - unique
+          - not_null
+      - name: payment_type
+        data_tests:
+          - accepted_values:
+              values: [credit_card, cash, no_charge]
+      - name: fare_amount
+        data_tests:
+          - not_null
