@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: fct_taxi_trips
+    columns:
+      - name: trip_date
+        data_tests:
+          - not_null
+          - unique
+      - name: total_trips
+        data_tests:
+          - not_null
+      - name: total_fare
+        data_tests:
+          - not_null
+      - name: total_tips
+        data_tests:
+          - not_null
