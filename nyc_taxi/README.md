@@ -26,6 +26,7 @@
 13. Enable BigQuery API
 14. Create a service account and download JSON key
 15. Add a second target (bigquery) in profiles.yml
+16. run dbt debug --target bigquery
 16. Run dbt seed --target bigquery
 17. Run dbt run --target bigquery
 18. Run dbt test --target bigquery
